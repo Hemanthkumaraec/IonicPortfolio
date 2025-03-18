@@ -1,0 +1,11 @@
+html, body, #root, ion-app, ion-content {
+    height: 100%;
+    overflow: hidden;
+}
+
+.scroll-container {
+    height: 100%;
+    overflow-y: auto; /* Enables scrolling */
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,72 @@
+.full-page{
+    height: 100%;
+    overflow-y: auto;
+}
+
+.nav{
+    background: linear-gradient(90deg, rgba(95,159,152,1) 0%, rgba(168,223,218,1) 35%, rgba(127,198,213,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item li{
+    display: inline-block;
+}
+.nav-item li ion-router-link{
+    text-decoration: none;
+    color: black;
+    padding: 13px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.card{
+    text-align: center;
+}
+
+.btn-cv{
+    background-color: rgb(239, 243, 0);
+    border-radius: 10px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.btn-cv:active{
+    background-color: green;
+    color: white;
+}
+/* hero-section */
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    height: 88vh;
+    align-items: center;
+}
+.img {
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.project-section {
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-section img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}

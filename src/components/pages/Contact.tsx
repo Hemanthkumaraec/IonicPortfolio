@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
   return (
     <>
       <Header/>
-      <div className="contact-content">
+      <div className="contact-content full-page" >
         <div>
           <h3>Members</h3>
           <p>We've been waiting for you</p>

@@ -1,0 +1,49 @@
+.full-page{
+    height: 100%;
+    overflow-y: auto;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: rgb(5, 131, 131);
+    text-align: center;
+    
+}
+.head{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.card{
+    position: fixed;  
+    width: 100%; 
+    top: 60px;
+    left: 0;
+    background: white; 
+    z-index: 1000; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+}
+ion-card-content{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pic{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.card .skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

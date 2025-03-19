@@ -16,7 +16,7 @@ const Portfolio: React.FC = () => {
             {/* Content Section */}
             <IonContent className="ion-padding full-page">
                 <IonCard className="hero-section">
-                    <IonCardHeader className="card">
+                    <IonCardHeader className="hero-card">
                         <IonCardTitle><h1>{person.name}</h1></IonCardTitle>
                         <IonCardSubtitle><h3>{person.title}</h3></IonCardSubtitle>
                         <IonCardContent><p>{person.about}</p></IonCardContent>

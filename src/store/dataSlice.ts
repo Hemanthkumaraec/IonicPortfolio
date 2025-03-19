@@ -10,6 +10,7 @@ interface Project {
 }
 
 interface Person {
+
   id: number;
   name: string;
   title: string;

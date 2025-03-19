@@ -6,7 +6,9 @@ import Master from './master';
 import "./App.css"
 import Portfolio from './components/pages/portfolio';
 import Contact from './components/pages/Contact';
+import About from './components/pages/about'
 import { IonReactRouter } from '@ionic/react-router';
+import Skills from './components/pages/skills';
 
 
 setupIonicReact();
@@ -18,7 +20,8 @@ const App: React.FC = () => {
         <IonRouterOutlet>
           <Route exact path="/" component={Portfolio} />
           <Route exact path="/portfolio" component={Portfolio}/>
-         
+          <Route exact path="/about" component={About}/>
+          <Route exact path="/skills" component={Skills}/>
           <Route exact path="/contact" component={Contact} />
         </IonRouterOutlet>
       </IonReactRouter>
